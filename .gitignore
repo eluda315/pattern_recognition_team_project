@@ -1,0 +1,25 @@
+# Data files (데이터 파일 제외 - 용량 초과 방지)
+*.csv
+train.csv
+test.csv
+prediction.csv
+
+# Jupyter Notebook (노트북 자동 저장 파일 제외)
+.ipynb_checkpoints/
+
+# Python (캐시 및 가상환경 파일 제외)
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+.venv/
+
+# OS generated files (운영체제 시스템 파일 제외)
+.DS_Store
+Thumbs.db
+
+# IDE / Editor (에디터 설정 파일 제외)
+.vscode/
+.idea/
